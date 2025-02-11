@@ -1,0 +1,2 @@
+window.addEventListener("message",e=>{if(e.source===window){const{type:n,payload:s,source:o}=e.data;o==="studio-web-extension-page"&&(console.log("window message",e.data),chrome.runtime.sendMessage({type:n,payload:s,source:o}))}});chrome.runtime.onMessage.addListener(e=>{const{type:n,source:s,payload:o}=e;s==="studio-web-extension"&&(console.log("devtools message",e),window.postMessage({type:n,payload:o,source:s},"*"))});
+//# sourceMappingURL=inject.js.map
