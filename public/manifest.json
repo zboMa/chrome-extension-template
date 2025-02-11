@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "Studio Devtools",
   "$schema": "https://json.schemastore.org/chrome-manifest.json",
-  "version": "0.0.1",
+  "version": "0.0.0",
   "description": "Studio for 3dp devtools",
   "icons": {
     "16": "icons/icon_16.png",
